@@ -1,0 +1,118 @@
+/* começo da header e body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.header {
+    background-color: #00303f;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    /* final do header*/
+}
+/* comeco divs-produtos*/
+.container{
+    background-color: #3f6975;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.uno {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto; 
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.linkizin{
+    text-decoration: none;
+    color: inherit
+}
+
+
+ .uno:hover {
+    box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.product-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.producttitle {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.productdescription {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.productprice {
+    font-size: 1.2em;
+    color: #e74c3c;
+    margin: 10px 0;
+    text-decoration: none;
+}		
+
+
+/* final div produtos */
+
+/*detalhes em HTML*/
+.baixo{
+    background-color: #3f6975;
+    height: 40px;
+    width: 100%;
+}
+#osmio{
+    color:white;
+    text-align: center;
+}
+#produtos{
+    color: gray;
+    text-align: center;
+}

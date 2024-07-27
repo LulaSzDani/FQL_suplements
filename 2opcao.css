@@ -1,0 +1,95 @@
+
+header {
+    background-color: #10454f;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px;
+   
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    min-width: auto;
+   
+   
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section#about {
+    background-color: #f4f4f4;
+}
+
+section {
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+section#contact {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.project {
+    position: relative;
+    top: 0px;
+    right: -520px;
+    background-image: url();
+    color: purple;
+}
+.dani {
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position-x: -150px;
+    background-position-y: 1%;
+    background-image: url(Projeto\ Remover\ fundo.png);
+    background-size: 200PX;
+    background-color: 10454f;
+    background-position-X: 330PX;
+    background-position-y: 130px;
+    padding: 50px;
+    width: 40%;
+    height: 247px;
+}
